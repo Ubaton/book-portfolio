@@ -1,0 +1,22 @@
+
+
+@font-face {
+  font-family: "Vanger";   /*Can be any text*/
+  src: local("Vanger-400"),
+    url("./fonts/Vanger_400.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Radiantly_Signature_400";   /*Can be any text*/
+  src: local("Radiantly_Signature_400"),
+    url("./fonts/Radiantly_Signature_400.ttf") format("truetype");
+}
+
+
+body {
+  background-color: #F3ECE4;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
