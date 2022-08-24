@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hore';
 import About from './components/About';
 import Books from './components/Books';
+import Newsletter from './components/Newsletter';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 
       <About/>
       <Books/>
+      <Newsletter/>
     </>
   );
 }
