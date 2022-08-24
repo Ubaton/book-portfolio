@@ -5,6 +5,7 @@ import About from './components/About';
 import Books from './components/Books';
 import Newsletter from './components/Newsletter';
 import Reviews from './components/Reviews';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Books/>
       <Newsletter/>
       <Reviews/>
+      <Footer/>
     </>
   );
 }

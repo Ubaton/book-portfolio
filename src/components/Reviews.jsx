@@ -3,9 +3,12 @@ import avatar from '../images/avatar.png'
 
 const Reviews = () => {
   return (
-    <div className='w-full py-[10rem] px-4 bg-rose-500'>
+    <div className='w-full py-[1rem] px-4 bg-rose-500'>
+        <div className='text-white text-[70px] font-vng justify-center flex py-5'>
+            Reviews
+        </div>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
-            <div className='w-full shadow-xl border border-rose-900 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
+            <div className='hover:cursor-pointer w-full shadow-xl border border-rose-900 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
                 <img className='w-20 mx-auto mt-[-3rem] bg-white]' src={avatar} alt="/"/>
                 <h2 className=' text-2xl font-blod text-center py-8 font-vng text-[40px] text-white'>Username01</h2>
                 <p className='text-center text-2xl text-white'>Lorem Ipsum is simply 
@@ -25,7 +28,7 @@ const Reviews = () => {
                     
                 </div>
             </div>
-            <div className='w-full shadow-xl border border-rose-900 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
+            <div className='hover:cursor-pointer w-full shadow-xl border border-rose-900 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
                 <img className='w-20 mx-auto mt-[-3rem] bg-white]' src={avatar} alt="/"/>
                 <h2 className=' text-2xl font-blod text-center py-8 font-vng text-[40px] text-white'>Username01</h2>
                 <p className='text-center text-2xl text-white'>Lorem Ipsum is simply 
@@ -45,7 +48,7 @@ const Reviews = () => {
                     
                 </div>
             </div>
-            <div className='w-full shadow-xl border border-rose-900 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
+            <div className='hover:cursor-pointer w-full shadow-xl border border-rose-900 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
                 <img className='w-20 mx-auto mt-[-3rem] bg-white]' src={avatar} alt="/"/>
                 <h2 className=' text-2xl font-blod text-center py-8 font-vng text-[40px] text-white'>Username01</h2>
                 <p className='text-center text-2xl text-white'>Lorem Ipsum is simply 
