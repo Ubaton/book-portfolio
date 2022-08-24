@@ -4,6 +4,7 @@ import Hero from './components/Hore';
 import About from './components/About';
 import Books from './components/Books';
 import Newsletter from './components/Newsletter';
+import Reviews from './components/Reviews';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <About/>
       <Books/>
       <Newsletter/>
+      <Reviews/>
     </>
   );
 }
