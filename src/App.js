@@ -8,7 +8,6 @@ import Reviews from './components/Reviews';
 import Footer from './components/Footer';
 
 
-
 function App() {
   return (
     <>
