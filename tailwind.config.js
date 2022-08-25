@@ -5,7 +5,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-
         "colors": {
           "salmon": {
             "50": "#ffddd0",
@@ -75,7 +74,18 @@ module.exports = {
         },
 
         backgroundImage: {
-          'hero-img': "url('/images/hero.png')"}
+          'hero-img': "url('/images/hero.png')"},
+
+          screens: {
+            'tablet': '640px',
+            // => @media (min-width: 640px) { ... }
+      
+            'laptop': '1024px',
+            // => @media (min-width: 1024px) { ... }
+      
+            'desktop': '1280px',
+            // => @media (min-width: 1280px) { ... }
+          },
     },
   },
   plugins: [],

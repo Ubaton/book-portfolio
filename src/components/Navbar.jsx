@@ -25,7 +25,7 @@ const Navbar = () => {
       </div>
 
       <div onClick={handleNav} className='block md:hidden'>
-         {!nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/> }
+         {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/> }
       </div>
 
       <div className={nav ? 'fixed left-0 top-0 mt-24 w-[60%] border-r text-[25px] border-r-brown-500 h-full bg-brown-500 ease-in-out duration-500' : 'fixed left-[-100%] top-[10%]'}>
@@ -36,8 +36,8 @@ const Navbar = () => {
         <li className='p-4 border-b border-lightbrown-500'>Books</li> 
         </ul>
 
-        <div className='hidden md:flex justify-center'>
-          <button class="bg-lightbrown-500 hover:bg-brown-500 text-black py-1 px-5 rounded-full drop-shadow-lg">
+        <div className='flex justify-center'>
+          <button class="bg-lightbrown-500 text-[18px] hover:bg-brown-500 text-black py-[5px] px-[20px] rounded-full drop-shadow-lg">
             Login
           </button>
         </div>

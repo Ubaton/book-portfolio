@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Hore = () => {
+const Hero = () => {
   return (
-    <div >
+    <div className='text-left'>
       <div className='max-w-[800px] mt-[96px] w-full h-screen mx-24 text-left flex flex-col text-5xl'>
         <p className='text-brown-700 font-vng font-bold '>A place to read</p><br></br>
         <p className='text-brown-700 font-vng font-bold '>and relax your mind</p>
@@ -19,4 +19,4 @@ const Hore = () => {
   )
 }
 
-export default Hore
+export default Hero

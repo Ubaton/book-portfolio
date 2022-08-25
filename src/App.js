@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar';
-import Hero from './components/Hore';
+import Hero from './components/Hero';
 import About from './components/About';
 import Books from './components/Books';
 import Newsletter from './components/Newsletter';
@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <div className="bg-[url('images/hero.png')] bg-cover">
+      <div className="bg-[url('images/hero.png')] bg-cover bg-left">
         <Navbar/>
         <Hero/>
       </div>
