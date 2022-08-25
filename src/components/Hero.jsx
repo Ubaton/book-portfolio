@@ -9,7 +9,7 @@ const Hero = () => {
         <h1 className='text-brown-600 font-rs font-bold mt-10'>Feed your Toughts</h1>
 
       <div className='flex justify-left'>
-        <button class="bg-lightbrown-500 hover:bg-brown-600 text-black py-2 px-5 rounded-full mt-12 text-sm drop-shadow-md">
+        <button class=" ripple={true} bg-lightbrown-500 hover:bg-brown-600 text-black py-2 px-5 rounded-full mt-12 text-sm drop-shadow-md">
           Order
         </button>
       </div>
