@@ -1,6 +1,5 @@
-import { useRef, useState } from 'react'
+import { useState } from 'react'
 import './app.css'
-import FormInput from './FormInput'
 
 const App = () => {
     const [values,setValues] = useState({
@@ -70,7 +69,7 @@ const App = () => {
     };
 
     console.log(values);
-    
+  
   return (
     <div className='app'>
         <form onSubmit={handleSubmit}>
