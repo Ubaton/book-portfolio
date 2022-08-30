@@ -19,7 +19,7 @@ const Navbar = () => {
       </ul>
      
       <div className='hidden md:flex justify-end'>
-      <button class="bg-lightbrown-500 hover:bg-brown-600 text-black py-1 px-5 rounded-full drop-shadow-md">
+      <button className="bg-lightbrown-500 hover:bg-brown-600 text-black py-1 px-5 rounded-full drop-shadow-md">
         Login
       </button>
       </div>
@@ -37,7 +37,7 @@ const Navbar = () => {
         </ul>
 
         <div className='flex justify-center'>
-          <button class="bg-lightbrown-500 text-[18px] hover:bg-brown-500 text-black py-[5px] px-[20px] rounded-full drop-shadow-lg">
+          <button className="bg-lightbrown-500 text-[18px] hover:bg-brown-500 text-black py-[5px] px-[20px] rounded-full drop-shadow-lg">
             Login
           </button>
         </div>

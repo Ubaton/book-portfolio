@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import App from '../App';
 import './app.css'
 
 const App = () => {
@@ -71,7 +72,7 @@ const App = () => {
     console.log(values);
   
   return (
-    <div className='app'>
+    <div className=''>
         <form onSubmit={handleSubmit}>
           <h1>Register</h1>
           {input.map(input=>(

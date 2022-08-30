@@ -7,7 +7,6 @@ import Books from './components/Books';
 import Newsletter from './components/Newsletter';
 import Reviews from './components/Reviews';
 import Footer from './components/Footer';
-import FormInput from './Pages/FormInput';
 
 
 function App() {
@@ -23,7 +22,6 @@ function App() {
         <Newsletter/>
         <Reviews/>
         <Footer/>
-        <FormInput/>
     </>
   );
 }
