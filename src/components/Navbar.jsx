@@ -11,11 +11,11 @@ const Navbar = () => {
   return (
     <div className='bg-brown-500 mx-10 rounded-full drop-shadow-sm'>
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4'>
-      <h1 className='text-4xl font-rs text-black'>Boitumelo.</h1>
+      <h1 className='text-4xl font-rs text-black cursor-pointer '>Boitumelo.</h1>
       <ul className='hidden md:flex justify-center font-vng text-[35px]'>
-        <li className='p-4 hover:text-brown-900'>Home</li>
-        <li className='p-4 hover:text-brown-900'>About</li>
-        <li className='p-4 hover:text-brown-900'>Books</li>
+        <li className='p-4 hover:text-brown-900 cursor-pointer '>Home</li>
+        <li className='p-4 hover:text-brown-900 cursor-pointer '>About</li>
+        <li className='p-4 hover:text-brown-900 cursor-pointer '>Books</li>
       </ul>
      
       <div className='hidden md:flex justify-end'>
