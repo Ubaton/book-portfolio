@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <>
 
-    <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-brown-700'>
+    <div className='max-w-[1240px] mx-auto py-3 px-4 grid lg:grid-cols-3 gap-8 text-brown-700'>
         <div>
-            <h1 className='text-1xl font-rs cursor-pointer'>Boitumelo.</h1>
+            <h1 className='text-1xl font-rs cursor-pointer py-2'>Boitumelo.</h1>
             <p className='py-4'>Lorem Ipsum is simply 
             dummy text of the 
             printing and typesetting 
