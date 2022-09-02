@@ -28,7 +28,7 @@ const Books = () => {
             </p>
         </div>
 
-        <img className='py-[35%] mx-auto my-4' src={book} alt='/' />
+        <img className='mx-auto my-4 rounded-lg' src={book} alt='/' />
 
       </div>
   
