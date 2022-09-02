@@ -9,6 +9,7 @@ const Navbar = () => {
     }
     
   return (
+<>
     <div className='bg-brown-500 mx-10 rounded-full drop-shadow-sm'>
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4'>
       <h1 className='text-4xl font-rs text-black cursor-pointer '>Boitumelo.</h1>
@@ -18,8 +19,8 @@ const Navbar = () => {
         <li className='p-4 hover:text-brown-900 cursor-pointer '>Books</li>
       </ul>
      
-      <div className='hidden md:flex justify-end'>
-      <button className="bg-lightbrown-500 hover:bg-brown-600 text-black py-1 px-5 rounded-full drop-shadow-md">
+      <div className='hidden md:flex justify-end z-10 w-44 rounded'>
+      <button  className="bg-lightbrown-500 hover:bg-brown-600 text-black py-1 px-5 rounded-full drop-shadow-md font-medium text-sm text-center inline-flex items-center">
         Login
       </button>
       </div>
@@ -44,7 +45,11 @@ const Navbar = () => {
 
       </div>
     </div>
+
     </div>
+
+</>
+
   )
 }
 
