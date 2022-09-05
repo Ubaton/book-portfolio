@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
+    <section className='scroll-behavior: smooth'>
         <div className="bg-[url('images/hero.png')] bg-cover bg-left">
           <Navbar/>
           <Hero/>
@@ -22,7 +22,7 @@ function App() {
         <Newsletter/>
         <Reviews/>
         <Footer/>
-    </>
+    </section>
   );
 }
 
