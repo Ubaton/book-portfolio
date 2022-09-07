@@ -1,4 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 
 @font-face {
   font-family: "Vanger";   /*Can be any text*/
@@ -17,6 +23,11 @@ body {
   background-color: #F3ECE4;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: none;
+}
+
