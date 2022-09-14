@@ -20,11 +20,11 @@ const Navbar = () => {
       </ul>
      
       <div className='hidden md:flex justify-end z-10 w-44 rounded'>
-      <button  className="bg-lightbrown-500 hover:bg-brown-600 text-black py-1 px-5 rounded-full drop-shadow-md font-medium text-sm text-center inline-flex items-center transition-all">
-        Login
-      </button>
+        <button  className="bg-lightbrown-500 hover:bg-brown-600 text-black py-1 px-5 rounded-full drop-shadow-md font-medium text-sm text-center inline-flex items-center transition-all">
+            Login
+        </button>
       </div>
-
+      
       <div onClick={handleNav} className='block md:hidden'>
          {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/> }
       </div>
@@ -53,4 +53,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
