@@ -32,9 +32,9 @@ const Navbar = () => {
       <div className={nav ? 'bg-brown-500 h-120 py-4 rounded-md fixed left-0 top-[2px] mt-24 w-[50%] text-[25px] ease-in-out duration-500' : 'fixed left-[-100%] top-[-10%]'}>
       
         <ul className='pt-18 p-4 font-vng'>
-          <li className='p-4 border-b border-lightbrown-500 cursor-pointer hover:text-brown-900'><a href="Home">Home</a></li>
-          <li className='p-4 border-b border-lightbrown-500 cursor-pointer hover:text-brown-900'><a href="About">About</a></li>
-          <li className='p-4 border-b border-lightbrown-500 cursor-pointer hover:text-brown-900'><a href="Books">Books</a></li> 
+          <li className='p-4 border-b border-lightbrown-500 cursor-pointer hover:text-brown-900'><a href="#Home">Home</a></li>
+          <li className='p-4 border-b border-lightbrown-500 cursor-pointer hover:text-brown-900'><a href="#About">About</a></li>
+          <li className='p-4 border-b border-lightbrown-500 cursor-pointer hover:text-brown-900'><a href="#Books">Books</a></li> 
         </ul>
 
         <div className='flex justify-center cursor-pointer'>
