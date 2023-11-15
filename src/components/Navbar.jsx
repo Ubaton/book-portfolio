@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { LuX, LuText } from "react-icons/lu";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -19,36 +20,28 @@ const Navbar = () => {
           <h1 className="text-2xl font-rs cursor-pointer" onClick={closeNav}>
             Boitumelo.
           </h1>
-          <ul className="hidden md:flex justify-center font-vng text-[35px]">
-            <li
-              className="p-4 cursor-pointer hover:text-brown-900"
-              onClick={closeNav}
-            >
-              <a href="#Home">Home</a>
+          <ul
+            className={`md:flex ${
+              nav ? "block" : "hidden"
+            } justify-center font-vng text-[35px]`}
+            onClick={closeNav}
+          >
+            <li className="p-4 cursor-pointer hover:text-brown-900">
+              <Link to="/" onClick={closeNav}>
+                Home
+              </Link>
             </li>
-            <li
-              className="p-4 cursor-pointer hover:text-brown-900"
-              onClick={closeNav}
-            >
-              <a href="#About">About</a>
+            <li className="p-4 cursor-pointer hover:text-brown-900">
+              <Link to="/about">About</Link>
             </li>
-            <li
-              className="p-4 cursor-pointer hover:text-brown-900"
-              onClick={closeNav}
-            >
-              <a href="#Books">Books</a>
+            <li className="p-4 cursor-pointer hover:text-brown-900">
+              <Link to="/books">Books</Link>
             </li>
-            <li
-              className="p-4 cursor-pointer hover:text-brown-900"
-              onClick={closeNav}
-            >
-              <a href="#Books">Blog</a>
+            <li className="p-4 cursor-pointer hover:text-brown-900">
+              <Link to="/blog">Blog</Link>
             </li>
-            <li
-              className="p-4 cursor-pointer hover:text-brown-900"
-              onClick={closeNav}
-            >
-              <a href="#Books">Events</a>
+            <li className="p-4 cursor-pointer hover:text-brown-900">
+              <Link to="/events">Events</Link>
             </li>
           </ul>
 
@@ -59,34 +52,33 @@ const Navbar = () => {
           </div>
 
           <div onClick={handleNav} className="block md:hidden cursor-pointer">
-            {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+            {nav ? (
+              <LuX size={20} color="#fff" onClick={handleNav} />
+            ) : (
+              <LuText size={20} color="#fff" onClick={handleNav} />
+            )}
           </div>
 
           <div
-            className={
-              nav
-                ? "bg-brown-500 h-screen py-4 rounded-md fixed left-0 top-0 w-full text-[18px] ease-in-out duration-500"
-                : "hidden"
-            }
+            className={`md:hidden ${
+              nav ? "block" : "hidden"
+            } bg-brown-500 h-screen py-4 rounded-md fixed left-0 top-0 w-full text-[18px] ease-in-out duration-500`}
           >
             <ul className="pt-8 p-4 font-vng">
-              <li
-                className="p-4 border-b border-lightbrown-500 cursor-pointer hover:text-brown-900"
-                onClick={closeNav}
-              >
-                <a href="#Home">Home</a>
+              <li className="p-4 cursor-pointer hover:text-brown-900">
+                <Link to="/">Home</Link>
               </li>
-              <li
-                className="p-4 border-b border-lightbrown-500 cursor-pointer hover:text-brown-900"
-                onClick={closeNav}
-              >
-                <a href="#About">About</a>
+              <li className="p-4 cursor-pointer hover:text-brown-900">
+                <Link to="/about">About</Link>
               </li>
-              <li
-                className="p-4 border-b border-lightbrown-500 cursor-pointer hover:text-brown-900"
-                onClick={closeNav}
-              >
-                <a href="#Books">Books</a>
+              <li className="p-4 cursor-pointer hover:text-brown-900">
+                <Link to="/books">Books</Link>
+              </li>
+              <li className="p-4 cursor-pointer hover:text-brown-900">
+                <Link to="/blog">Blog</Link>
+              </li>
+              <li className="p-4 cursor-pointer hover:text-brown-900">
+                <Link to="/events">Events</Link>
               </li>
             </ul>
 
