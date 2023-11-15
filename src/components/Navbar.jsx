@@ -54,7 +54,7 @@ const Navbar = () => {
           </ul>
 
           <div className="hidden md:flex justify-end z-10 rounded">
-            <button className="bg-lightbrown-500 hover:bg-brown-600 text-black py-2 px-10 rounded-full drop-shadow-md font-medium text-md text-center inline-flex items-center transition-all">
+            <button className="bg-lightbrown-500 hover:bg-brown-600 text-white py-2 px-10 rounded-full drop-shadow-md font-medium text-md text-center inline-flex items-center transition-all">
               Login
             </button>
           </div>
