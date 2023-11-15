@@ -4,7 +4,7 @@ const Events = () => {
   return (
     <section className="container mx-auto bg-rose-500 py-10">
       <div className="max-w-[1240px] mx-auto">
-        <h2 className="text-4xl font-bold text-brown-900 mb-8">
+        <h2 className="text-4xl font-bold text-zinc-50 mb-8">
           Upcoming Events
         </h2>
 

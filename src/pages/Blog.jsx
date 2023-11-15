@@ -9,8 +9,8 @@ const Blog = () => {
         {/* Add your blog posts here */}
         <div className="flex flex-wrap -mx-4">
           {/* Example Blog Post */}
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <div className="bg-brown-500 rounded-lg p-6">
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8 hover:scale-105 transition-transform duration-300 ease-in-out">
+            <div className="bg-brown-500 rounded-lg p-6 shadow-lg">
               <h2 className="text-2xl font-bold mb-4">Blog Post Title</h2>
               <p className="text-gray-700">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -18,8 +18,8 @@ const Blog = () => {
               </p>
             </div>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <div className="bg-brown-500 rounded-lg p-6">
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8 hover:scale-105 transition-transform duration-300 ease-in-out">
+            <div className="bg-brown-500 rounded-lg p-6 shadow-lg">
               <h2 className="text-2xl font-bold mb-4">Blog Post Title</h2>
               <p className="text-gray-700">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -27,8 +27,8 @@ const Blog = () => {
               </p>
             </div>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <div className="bg-brown-500 rounded-lg p-6">
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8 hover:scale-105 transition-transform duration-300 ease-in-out">
+            <div className="bg-brown-500 rounded-lg p-6 shadow-lg">
               <h2 className="text-2xl font-bold mb-4">Blog Post Title</h2>
               <p className="text-gray-700">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -36,8 +36,8 @@ const Blog = () => {
               </p>
             </div>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <div className="bg-brown-500 rounded-lg p-6">
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8 hover:scale-105 transition-transform duration-300 ease-in-out">
+            <div className="bg-brown-500 rounded-lg p-6 shadow-lg">
               <h2 className="text-2xl font-bold mb-4">Blog Post Title</h2>
               <p className="text-gray-700">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -45,8 +45,8 @@ const Blog = () => {
               </p>
             </div>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <div className="bg-brown-500 rounded-lg p-6">
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8 hover:scale-105 transition-transform duration-300 ease-in-out">
+            <div className="bg-brown-500 rounded-lg p-6 shadow-lg">
               <h2 className="text-2xl font-bold mb-4">Blog Post Title</h2>
               <p className="text-gray-700">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -54,8 +54,8 @@ const Blog = () => {
               </p>
             </div>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <div className="bg-brown-500 rounded-lg p-6">
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8 hover:scale-105 transition-transform duration-300 ease-in-out">
+            <div className="bg-brown-500 rounded-lg p-6 shadow-lg">
               <h2 className="text-2xl font-bold mb-4">Blog Post Title</h2>
               <p className="text-gray-700">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.

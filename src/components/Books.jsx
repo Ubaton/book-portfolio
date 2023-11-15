@@ -22,11 +22,13 @@ const Books = () => {
             Ipsum.
           </p>
         </div>
-        <img
-          className="mx-auto my-4 md:my-0 rounded-lg"
-          src={book}
-          alt="Book"
-        />
+        <div className="hover:scale-105 transition-transform duration-300 ease-in-out">
+          <img
+            className="mx-auto my-4 md:my-0 rounded-lg  shadow-lg"
+            src={book}
+            alt="Book"
+          />
+        </div>
       </div>
     </div>
   );

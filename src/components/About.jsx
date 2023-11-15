@@ -5,13 +5,14 @@ const About = () => {
   return (
     <div className="container mx-auto bg-rose-500 py-8 px-4 md:px-0 ">
       <div className="grid grid-cols-1 md:grid-cols-2 max-w-[1240px] mx-auto gap-6 p-8">
-        <div>
+        <div className="hover:scale-105 transition-transform duration-300 ease-in-out">
           <img
-            className="mx-auto my-4 md:my-0 rounded-lg"
+            className="mx-auto my-4 md:my-0 rounded-lg  shadow-lg"
             src={boity}
             alt="Boity"
           />
         </div>
+
         <div className="text-center md:text-left">
           <h1 className="font-vng text-4xl md:text-5xl text-white px-4 md:px-0">
             About
