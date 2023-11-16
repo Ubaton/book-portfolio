@@ -18,6 +18,7 @@ const Reviews = () => {
               src={avatar}
               alt={`User ${index}`}
             />
+            <div></div>
             <h2 className="text-2xl font-bold text-center py-8 font-vng text-white">
               Username{index}
             </h2>
@@ -27,7 +28,7 @@ const Reviews = () => {
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book.
             </p>
-            {/* //////Add a like button////// */}
+
             <div>{/* Add your like button component here */}</div>
           </div>
         ))}

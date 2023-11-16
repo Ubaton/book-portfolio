@@ -6,6 +6,7 @@ import {
   FaYoutubeSquare,
   FaWhatsappSquare,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -18,11 +19,21 @@ const Footer = () => {
             industry.
           </p>
           <div className="flex md:w-[75%] my-6">
-            <FaFacebookSquare size={30} className="cursor-pointer" />
-            <FaInstagramSquare size={30} className="cursor-pointer" />
-            <FaTwitterSquare size={30} className="cursor-pointer" />
-            <FaYoutubeSquare size={30} className="cursor-pointer" />
-            <FaWhatsappSquare size={30} className="cursor-pointer" />
+            <Link to="">
+              <FaFacebookSquare size={30} className="cursor-pointer" />
+            </Link>
+            <Link to="">
+              <FaInstagramSquare size={30} className="cursor-pointer" />
+            </Link>
+            <Link to="">
+              <FaTwitterSquare size={30} className="cursor-pointer" />
+            </Link>
+            <Link to="">
+              <FaYoutubeSquare size={30} className="cursor-pointer" />
+            </Link>
+            <Link to="">
+              <FaWhatsappSquare size={30} className="cursor-pointer" />
+            </Link>
           </div>
         </div>
         <div className="lg:col-span-2 flex justify-between">
@@ -50,8 +61,12 @@ const Footer = () => {
 
       <div className="flex justify-center items-center bg-brown-500 py-3">
         <p className="text-white flex items-center">
-          © 2022 Boitumelo Ngobeni. All rights reserved by Creative Minds
-          Graphics.
+          © 2022 Boitumelo Ngobeni. All rights reserved by
+          <span className="hover:underline">
+            <Link to="https://creativemg.netlify.app/">
+              Creative Minds Graphics (Pty) Ltd.
+            </Link>
+          </span>
         </p>
       </div>
     </>
