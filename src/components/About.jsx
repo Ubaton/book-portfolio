@@ -18,16 +18,16 @@ const About = () => {
             About
           </h1>
           <p className="py-5 px-4 md:px-0 text-lg md:text-2xl text-white">
-            What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
-            printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to make a type
-            specimen book. It has survived not only five centuries but also the
-            leap into electronic typesetting, remaining essentially unchanged.
-            It was popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum.
+            Boitumelo Ngobeni is an exceptional young extraordinary lady. As a
+            young wife and mother, she put her heart into writing and believes
+            that this is her gift from God. As a Christian woman, she believes
+            that God is using her as a Vassel to bring many young people closer
+            to Jesus Christ and His saving Grace. She considers herself a nobody
+            who has not achieved much, yet she believes that one doesn't need
+            achievements to impact lives. One thing Boitumelo stands true to are
+            her words to the world: "Until you find your gift and use it to
+            impact others positively, you haven't found your purpose in life.
+            You are living to be served and not to serve".
           </p>
         </div>
       </div>
