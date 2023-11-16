@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <div style={{ scrollBehavior: "smooth" }} className="bg-rose-500">
-        <div className="bg-[url('images/hero.png')] bg-cover bg-left">
+        <div className="bg-[url('images/hero.jpeg')] bg-cover bg-left">
           <Navbar />
           <Hero />
         </div>
