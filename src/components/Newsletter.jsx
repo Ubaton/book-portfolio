@@ -6,7 +6,8 @@ const Newsletter = () => {
     e.preventDefault();
 
     // Get the user's email from the input field
-    const userEmail = document.getElementById("emailInput").value;
+    const userEmailInput = document.getElementById("emailInput");
+    const userEmail = userEmailInput.value;
 
     // Your EmailJS template ID, service ID, and user ID
     const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
@@ -18,6 +19,9 @@ const Newsletter = () => {
       .send(serviceId, templateId, { to_email: userEmail }, userId)
       .then((response) => {
         console.log("Email sent successfully:", response);
+
+        // Clear the input field after successful submission
+        userEmailInput.value = "";
       })
       .catch((error) => {
         console.error("Error sending email:", error);
